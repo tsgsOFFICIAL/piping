@@ -8,11 +8,11 @@ import { MorsePipe } from './pipes/morse.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    MorsePipe,
-    FormsModule
+    MorsePipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
